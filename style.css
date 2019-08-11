@@ -304,11 +304,11 @@ header .header-cases {
   margin: 15px 15px 0;
   width: calc(100%-30px);
   height: 100px;
-  background-color: #5a5a5a;
+  background-color: #7a7a7a;
 }
 
 .index-links div:hover {
-  background: #7a7a7a;
+  background: #5a5a5a;
 }
 
 .index-links div h3 {
@@ -343,11 +343,9 @@ header .header-cases {
 
   .index-links div {
     display: block;
-    margin: 0 auto;
+    margin: 15px auto;
     padding: 10px 0;
     height: 80px;
-    background-color: #5a5a5a;
-    border: 1px solid #000;
   }
 
   .index-links div h3 {
@@ -657,6 +655,18 @@ footer ul li a {
   width: 100%;
   float: right;
 }
+
+.footer-contact {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: italic;
+  color: #fff;
+  line-height: 16px;
+  margin-top: 100px;
+  text-align: end;
+}
+
 @media only screen and (min-width: 1000px) {
   .footer-links-cases {
     display: block;

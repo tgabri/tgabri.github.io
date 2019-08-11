@@ -448,6 +448,7 @@ header .header-cases {
   font-family: Catamaran;
   font-size: 16px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .about-info {
@@ -460,6 +461,7 @@ header .header-cases {
 .about-info img {
   display: grid;
   width: 20%;
+  border: 1px inherit #313030;
 }
 
 .about-info .bio h3 {
@@ -473,6 +475,7 @@ header .header-cases {
   font-weight: 600;
   color: #111111;
   text-align: center;
+  margin: 30px;
 }
 
 .about-info {

@@ -180,6 +180,7 @@ body {
 
 span {
   color: #ee441a;
+  text-shadow: #000;
 }
 
 header {
@@ -271,7 +272,6 @@ header .header-cases {
   background-position: center;
   background-size: cover;
   display: table;
-  opacity: 0.7;
 }
 
 .vertical-center {
@@ -450,41 +450,53 @@ header .header-cases {
 }
 
 .about-info {
+  display: flex;
   font-family: Catamaran;
   font-size: 16px;
   font-weight: 600;
+  font-size: 16px;
+  text-align: center;
   color: #111111;
+  margin-bottom: 30px;
 }
 
 .about-info img {
-  display: grid;
+  flex: 1;
+  max-width: 100%;
+  height: auto;
   width: 20%;
-  border: 1px inherit #313030;
+  border: 1px double #313030;
+  border-radius: 5px;
 }
 
 .about-info .bio h3 {
+  flex: 1;
   font-size: 28px;
   text-align: left;
+  margin-bottom: 15px;
 }
 
 .about-info .bio {
+  flex: 2;
   font-family: Catamaran;
   font-size: 22px;
   font-weight: 600;
   color: #111111;
   text-align: center;
-  margin: 30px;
+  margin: 20px;
 }
 
-.about-info {
-  text-align: center;
+.about-job {
+  display: block;
   font-family: Catamaran;
   font-size: 16px;
   font-weight: 600;
+  font-size: 16px;
+  text-align: center;
   color: #111111;
 }
 
-.about-info h3 {
+.about-job h3 {
   text-align: left;
   font-family: Catamaran;
   font-size: 18px;
@@ -492,7 +504,7 @@ header .header-cases {
   color: #111111;
 }
 
-.about-info h6 {
+.about-job h6 {
   text-align: left;
   font-family: Catamaran;
   font-size: 16px;
@@ -500,7 +512,7 @@ header .header-cases {
   color: #111111;
 }
 
-.about-info .job {
+.about-job .job {
   background: #7a7a7a;
   padding: 20px;
   border-bottom: #ee441a 5px solid;
@@ -628,10 +640,11 @@ footer ul li a {
   float: right;
   transition: width 50ms;
   background: #7a7a7a;
+  border-radius: 12px;
 }
 
 .footer-sm1:hover {
-  width: 60px;
+  width: 55px;
   background: #ff9;
 }
 
@@ -644,10 +657,11 @@ footer ul li a {
   float: right;
   transition: width 50ms;
   background: #7a7a7a;
+  border-radius: 12px;
 }
 
 .footer-sm2:hover {
-  width: 60px;
+  width: 55px;
   background: #ff9;
 }
 

@@ -623,7 +623,7 @@ footer ul li a {
 }
 
 .nav-item:hover {
-  background-color: #7a7a7a;
+  background-color: #ff9;
   width: 80%;
 }
 
@@ -638,7 +638,6 @@ footer ul li a {
 .footer-sm1 {
   width: 50px;
   float: right;
-  transition: width 50ms;
   background: #7a7a7a;
   border-radius: 12px;
 }
@@ -655,7 +654,6 @@ footer ul li a {
 .footer-sm2 {
   width: 50px;
   float: right;
-  transition: width 50ms;
   background: #7a7a7a;
   border-radius: 12px;
 }

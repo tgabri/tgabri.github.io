@@ -180,7 +180,7 @@ body {
 
 span {
   color: #ee441a;
-  text-shadow: #000;
+  text-shadow: 1px 1px black;
 }
 
 header {
@@ -305,6 +305,7 @@ header .header-cases {
   width: calc(100%-30px);
   height: 100px;
   background-color: #7a7a7a;
+  border-radius: 10px;
 }
 
 .index-links div:hover {
@@ -357,6 +358,7 @@ header .header-cases {
 }
 
 /* CASES */
+/* CASE */
 
 .cases-links {
   overflow: hidden;
@@ -379,6 +381,10 @@ header .header-cases {
   background-color: #7a7a7a;
   display: grid;
 }
+.cases-link {
+  background-image: url('img/project.jpg');
+  background-size: cover;
+}
 
 .cases-links .cases-link p {
   padding-top: 45%;
@@ -389,8 +395,24 @@ header .header-cases {
   text-transform: uppercase;
   text-align: center;
 }
-
-/* CASE */
+.cases-description p {
+  margin-top: 30px;
+  font-family: Catamaran;
+  font-size: 20px;
+  color: #111111;
+  text-align: justify;
+}
+.cases-description ul {
+  display: block;
+  margin: 40px auto;
+  width: 200px;
+}
+.cases-description ul li {
+  padding: 6px;
+}
+.cases-description ul li a {
+  color: #111111;
+}
 
 .case-vid h2 {
   font-family: Catamaran;
@@ -420,11 +442,18 @@ header .header-cases {
   font-family: Catamaran;
   font-size: 16px;
   font-weight: 600;
+  text-align: justify;
   line-height: 24px;
   color: #111111;
   text-transform: uppercase;
   column-count: 3;
   column-gap: 20px;
+}
+@media only screen and (min-width: 1000px) {
+  .cases-description p {
+    width: 1000px;
+    margin: 0 auto;
+  }
 }
 
 /* ABOUT */
@@ -482,7 +511,7 @@ header .header-cases {
   font-size: 22px;
   font-weight: 600;
   color: #111111;
-  text-align: center;
+  text-align: justify;
   margin: 20px;
 }
 
@@ -492,7 +521,7 @@ header .header-cases {
   font-size: 16px;
   font-weight: 600;
   font-size: 16px;
-  text-align: center;
+  text-align: justify;
   color: #111111;
 }
 
@@ -580,11 +609,17 @@ header .header-cases {
   font-family: Catamaran;
   font-size: 28px;
   font-weight: 900;
+  color: #111;
+  padding-left: 10px;
 }
 
 .item img {
   width: 220px;
-  margin-left: ;
+}
+@media only screen and (min-width: 1000px) {
+  .item {
+    width: 1000px;
+  }
 }
 
 /* FOOTER */
